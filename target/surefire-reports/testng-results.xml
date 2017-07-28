@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="com.smartfactory.testcase.NewTest" duration-ms="45704" started-at="2017-07-28T12:23:48Z" finished-at="2017-07-28T12:24:34Z">
+  <suite name="com.smartfactory.testcase.NewTest" duration-ms="42597" started-at="2017-07-28T12:54:53Z" finished-at="2017-07-28T12:55:35Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="45704" started-at="2017-07-28T12:23:48Z" finished-at="2017-07-28T12:24:34Z">
+    <test name="Command line test" duration-ms="42597" started-at="2017-07-28T12:54:53Z" finished-at="2017-07-28T12:55:35Z">
       <class name="com.smartfactory.testcase.NewTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.smartfactory.testcase.NewTest@addb54]" name="setup" is-config="true" duration-ms="44851" started-at="2017-07-28T17:53:48Z" finished-at="2017-07-28T17:54:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smartfactory.testcase.NewTest@addb54]" name="setup" is-config="true" duration-ms="41987" started-at="2017-07-28T18:24:53Z" finished-at="2017-07-28T18:25:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.smartfactory.testcase.NewTest@addb54]" name="loginToApplication" duration-ms="260" started-at="2017-07-28T17:54:34Z" data-provider="loginData" finished-at="2017-07-28T17:54:34Z">
+        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.smartfactory.testcase.NewTest@addb54]" name="loginToApplication" duration-ms="168" started-at="2017-07-28T18:25:35Z" data-provider="loginData" finished-at="2017-07-28T18:25:35Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -25,23 +25,23 @@
               <![CDATA[unknown error: keys should be a string
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 185 milliseconds
+Command duration or timeout: 106 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'PC13', ip: '192.168.3.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir2872_4061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: d74c5e855a5bd6b40a3aaba20ec34543]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir9512_18569}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 54cc3c2a7a536325a26cac9da484db20]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: keys should be a string
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 185 milliseconds
+Command duration or timeout: 106 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'PC13', ip: '192.168.3.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir2872_4061}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: d74c5e855a5bd6b40a3aaba20ec34543
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir9512_18569}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 54cc3c2a7a536325a26cac9da484db20
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,7 +52,7 @@ Session ID: d74c5e855a5bd6b40a3aaba20ec34543
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
 	at com.smartfactory.pages.Login_Page.login(Login_Page.java:29)
-	at com.smartfactory.testcase.NewTest.loginToApplication(NewTest.java:84)
+	at com.smartfactory.testcase.NewTest.loginToApplication(NewTest.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

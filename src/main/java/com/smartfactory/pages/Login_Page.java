@@ -35,6 +35,7 @@ public class Login_Page {
 	//	action.inputText(obj.passwrd,password);
 	//	CommonFunctionLib.log(driver, "Enter Password");
 		
+	    driver.findElement(By.name("password")).sendKeys(password);
 	//	action.click(obj.btnlogin);
 	//	CommonFunctionLib.log(driver,"Click on Login Button");
 		CommonFunctionLib.sleep(5);

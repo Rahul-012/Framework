@@ -75,10 +75,13 @@ public class NewTest extends TestBase{
 	
 	
 
-	@Test(dataProvider="loginData")
+    @Test(dataProvider="loginData")
     public void  loginToApplication(String username,String password) throws Exception {
 	
-		signIn.login(username,password);
+		
+		//signIn.login(username,password);
+    	signIn.login(username,password);
+  	  
 	  
   }
   

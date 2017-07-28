@@ -96,8 +96,41 @@ public class Excel_Reader {
 				
 			 }
 	   }
+	   
+	   
+	   /*public String getCellData(String sheetname,int colName,int rowNum)
+		{
+			int index;
+			int col_Num=0;
+			try
+			{
+				 index=workbook.getSheetIndex(sheetname);
+				 sheet= workbook.getSheetAt(index);		
+				  row= sheet.getRow(0);
+				
+				 row= sheet.getRow(rowNum-1);
+				 cell= row.getCell(colName);
+				 if(cell.getCellType()==Cell.CELL_TYPE_STRING)
+				 {
+					 return cell.getStringCellValue();
+				 }
+				 else if(cell.getCellType()==Cell.CELL_TYPE_BLANK)
+					 return cell.getStringCellValue();
+			
+				 else if(cell.getCellType()==Cell.CELL_TYPE_BLANK)
+					 return "";
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+			return null;
+		
+	   
 	 
-	 
+		}*/
+	   
+}
 	 
 	 
 /*	public static void main(String[] args) {
@@ -109,4 +142,4 @@ public class Excel_Reader {
 		System.out.println(obj.getColumnCount("Sheet1"));
 		
 	}*/
-}
+
