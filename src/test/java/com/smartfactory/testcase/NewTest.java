@@ -1,7 +1,15 @@
 package com.smartfactory.testcase;
 
-import org.openqa.selenium.WebDriver;
+import java.io.FileOutputStream;
 
+import jxl.Workbook;
+import jxl.write.Label;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -75,11 +83,24 @@ public class NewTest extends TestBase{
 	
 	
 
-	@Test(dataProvider="loginData")
-    public void  loginToApplication(String username,String password) throws Exception {
+//	@Test(dataProvider="loginData")
+  //  public void  loginToApplication(String username,String password) throws Exception {
 	
-		signIn.login(username,password);
+	//signIn.login(username,password);
+	
+	 public void test() throws Exception {
+		//  driver.get("http://www.google.co.in/");
+		/*  driver.findElement(By.id("gbqfq")).clear();
+		  driver.findElement(By.id("gbqfq")).sendKeys("Testing");
+		  driver.findElement(By.id("gbqfq")).sendKeys(Keys.ENTER);
+		  driver.findElement(By.linkText("Software testing - Wikipedia, the free encyclopedia")).click();
+		  String s = driver.getTitle();*/
+		 signIn.login();
+			  
+		 }
+	
 	  
-  }
+	
+
   
 }

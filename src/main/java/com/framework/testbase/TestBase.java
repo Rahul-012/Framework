@@ -12,7 +12,7 @@ import com.framework.common.Config;
 import com.smartfactory.pages.Login_Page;
 
 public class TestBase {
-	protected static WebDriver driver=null;
+	protected  WebDriver driver=null;
 	protected static String url=null;
 	protected static String browser=null;
 	protected   WebAction action;
