@@ -16,7 +16,7 @@ public class TestBase {
 	protected static String url=null;
 	protected static String browser=null;
 	protected   WebAction action;
-	protected   Login_Page signIn;
+	protected  Login_Page signIn;
 	
 	@BeforeClass
 	public  void setup()

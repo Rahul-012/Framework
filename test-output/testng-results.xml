@@ -2,57 +2,39 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33497" started-at="2017-07-28T11:15:18Z" finished-at="2017-07-28T11:15:52Z">
+  <suite name="Default suite" duration-ms="18864" started-at="2017-07-31T13:27:10Z" finished-at="2017-07-31T13:27:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33497" started-at="2017-07-28T11:15:18Z" finished-at="2017-07-28T11:15:52Z">
+    <test name="Default test" duration-ms="18864" started-at="2017-07-31T13:27:10Z" finished-at="2017-07-31T13:27:29Z">
       <class name="com.smartfactory.testcase.NewTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.smartfactory.testcase.NewTest@67ae56]" name="setup" is-config="true" duration-ms="32822" started-at="2017-07-28T16:45:18Z" finished-at="2017-07-28T16:45:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smartfactory.testcase.NewTest@1fa3a9d]" name="setup" is-config="true" duration-ms="15716" started-at="2017-07-31T18:57:10Z" finished-at="2017-07-31T18:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.smartfactory.testcase.NewTest@67ae56]" name="loginToApplication" duration-ms="176" started-at="2017-07-28T16:45:52Z" data-provider="loginData" finished-at="2017-07-28T16:45:52Z">
+        <test-method status="FAIL" signature="loginToApplication(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.smartfactory.testcase.NewTest@1fa3a9d]" name="loginToApplication" duration-ms="2615" started-at="2017-07-31T18:57:26Z" data-provider="loginData" finished-at="2017-07-31T18:57:29Z">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[rahul@softwebsolutions.com]]>
+              </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AS EXPECTED]]>
+              </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: keys should be a string
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 101 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PC13', ip: '192.168.3.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir8512_12767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 373400ed5cb7e1b357886f21f3c9da20]]>
-            </message>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: keys should be a string
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 101 milliseconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PC13', ip: '192.168.3.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_112'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\RAHUL~1.RAT\AppData\Local\Temp\scoped_dir8512_12767}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 373400ed5cb7e1b357886f21f3c9da20
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-	at com.smartfactory.pages.Login_Page.login(Login_Page.java:29)
-	at com.smartfactory.testcase.NewTest.loginToApplication(NewTest.java:55)
+              <![CDATA[java.lang.NullPointerException
+	at com.smartfactory.excelreader.Excel_Reader.runTest(Excel_Reader.java:259)
+	at com.smartfactory.excelreader.Excel_Reader.test(Excel_Reader.java:211)
+	at com.smartfactory.testcase.NewTest.loginToApplication(NewTest.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,11 +62,11 @@ Session ID: 373400ed5cb7e1b357886f21f3c9da20
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
       </class> <!-- com.smartfactory.testcase.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

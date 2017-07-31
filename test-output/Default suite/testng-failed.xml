@@ -5,7 +5,8 @@
     <classes>
       <class name="com.smartfactory.testcase.NewTest">
         <methods>
-          <include name="loginToApplication"/>
+          <include name="setup"/>
+          <include name="loginToApplication" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.smartfactory.testcase.NewTest -->
     </classes>

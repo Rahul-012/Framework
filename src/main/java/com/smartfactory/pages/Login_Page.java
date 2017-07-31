@@ -1,5 +1,6 @@
 package com.smartfactory.pages;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -24,21 +25,20 @@ public class Login_Page {
 	public void login(String usrname,String password) throws Exception{
 		
 	 
-	    
-		//action.inputText(obj.usernme,usrname);
-	    driver.findElement(By.name("email")).sendKeys(usrname);
-	    
-	    System.out.println(usrname);
-		
+	  //   driver.findElement(By.name("email")).sendKeys(usrname);
+		CommonFunctionLib.log(driver,usrname);
+	  action.inputText(obj.usernme,usrname);
 	    CommonFunctionLib.log(driver,"Enter username");
+	  //  driver.findElement(By.name("password")).sendKeys(password);
 		
-	//	action.inputText(obj.passwrd,password);
-	//	CommonFunctionLib.log(driver, "Enter Password");
+		action.inputText(obj.passwrd,password);
+		CommonFunctionLib.log(driver, "Enter Password");
+		System.out.println("Password is "+password);
 		
-	    driver.findElement(By.name("password")).sendKeys(password);
-	//	action.click(obj.btnlogin);
-	//	CommonFunctionLib.log(driver,"Click on Login Button");
-		CommonFunctionLib.sleep(5);
+	
+		action.click(obj.btnlogin);
+		CommonFunctionLib.log(driver,"Click on Login Button");
+	//	CommonFunctionLib.sleep(5);
 		
 		//return new Login_Page(driver,action);
 		
